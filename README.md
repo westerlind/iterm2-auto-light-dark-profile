@@ -1,8 +1,10 @@
 # iTerm2 Automatic Light/Dark Profile Switcher
 This is an iTerm2 script for automatically changing between a light and a dark profile for all tabs and windows when macOS 10.14+ is switched between light and dark mode.
 
+A script like this used to be needed to make iTerm2 switch the terminal colors automatically when changing between light/dark mode in the OS, but more recent versions have added an option to specify both dark and light colors in an iTerm2 profile as a built in way of achieving the same thing, so while this script will still be available here, you could make this work without it these days.
+
 # Installation and Usage
-- First get iTerm2 (the best terminal emulator there is!), as you obviously don't have much use for this script without that :) Get it here: https://iterm2.com
+- First get iTerm2, as you obviously don't have much use for this script without that :) Get it here: https://iterm2.com
 - Launch iTerm2 and install it's Python runtime from the Scripts menu
 - Go to iTerm2's preferences, and to General, and then the Magic tab, and enable the Python API there
 - Put light-dark.py in $HOME/Library/ApplicationSupport/iTerm2/Scripts/AutoLaunch/ (you may need to create the AutoLaunch folder)
